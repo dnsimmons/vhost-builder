@@ -128,7 +128,7 @@ if [[ "$DISTRO" == "Redhat" ]]; then
 	# Check for vhost directory in /etc/httpd
 	if [ ! -d /etc/httpd/vhost.d  ]; then
 		mkdir /etc/httpd/vhost.d &&
-		echo "include vhost.d/*.conf" >> /etc/httpd/conf/httpd.conf
+		echo "Include vhost.d/*.conf" >> /etc/httpd/conf/httpd.conf
 	fi
 	if [ -f /etc/httpd/vhost.d/$1.conf ]; then
 		echo "This virtual host already exists on this system."
