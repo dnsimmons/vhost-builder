@@ -9,4 +9,4 @@ A port of justcurl that makes creating a vhost quick and easy on RedHat and Debi
 
 **Usage**
 
-	./vhost-build.sh example.com
+	sudo ./vhost-build.sh example.com
