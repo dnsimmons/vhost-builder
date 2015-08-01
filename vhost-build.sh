@@ -24,8 +24,8 @@ fi
 DATA="<VirtualHost *:80>
         ServerName $1
         ServerAlias www.$1
-        #### This is where you put your files for that domain: /var/www/vhosts/$1
-        DocumentRoot /var/www/vhosts/$1
+        #### This is where you put your files for that domain: /var/www/vhosts/$1/public
+        DocumentRoot /var/www/vhosts/$1/public
 
 	#RewriteEngine On
 	#RewriteCond %{HTTP_HOST} ^$1
