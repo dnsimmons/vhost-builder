@@ -1,4 +1,4 @@
-#vhost-build
+# vhost-build
 
 A port of justcurl that makes creating a vhost quick and easy on RedHat or Debian based distros. 
 
